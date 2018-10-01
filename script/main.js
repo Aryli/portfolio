@@ -2,10 +2,10 @@ function countdown() {
 	var now = new Date();
 	var eventDate = new Date(2018, 09, 14);
 
-	var currentTiime = now.getTime();
+	var currentTime = now.getTime();
 	var eventTime = eventDate.getTime();
 
-	var remTime = eventTime - currentTiime;
+	var remTime = eventTime - currentTime;
 
 
 
